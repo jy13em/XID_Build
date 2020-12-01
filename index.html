@@ -1,0 +1,107 @@
+<!doctype html>
+  <head>
+        <meta charset="utf-8">
+    <title>The UX of Among Us</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="styles.css">
+    <script src="js/main.js"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <div id="container">
+    <div id="space"></div>
+    <div id="heroimage"></div>
+    <div id="whiteboard"></div>
+    <div id="topbar"></div>
+    <div id="button1">Ux of Among us</div>
+    <div id="divider"></div>
+    <span id="title">The UX of Among Us</span>
+    <span id="subtitle">The importance of colorblind-friendly design</span>
+    <div id="button2"><a href="https://uxdesign.cc/the-importance-of-colorblind-friendly-design-case-study-among-us-dcd042c87b9">Original link</a></div>
+    <div id="button3">Redesign by Tim</div>
+
+    <span id="firstline"><strong>Color blindness (color vision deficiency)</Strong> is the decreased ability to see color or differences in color. Based on statistics from <a href="https://www.colourblindawareness.org/colour-blindness/types-of-colour-blindness/">colourblindawarness.org</a>, <br>there is general agreement that worldwide 8% of men and 0.5% of women have a color vision deficiency. Worldwide, there are over 300 million people with some form of color blindness.<br><br>
+
+      To put these statistics in context, an all-boys school in the Home Counties of England with 1000 pupils would have approximately 100 color deficient students. 12–13 would be deuteranopes, 12–13 would be protanopes, 12–13 would have a form of protanomaly and 62 would have a form of deuteranomaly. About half of those with an anomalous condition would have a moderate to severe form of deficiency.<br><br>
+
+     This plays a role in user experience, where designers often need to consider the consequences of their color choices for color-blind people. As designers, there are multiple resources that one can make use of, from Adobe Illustrator’s <a href="https://www.adobe.com/accessibility/products/illustrator.html#:~:text=Choose%20View%20%3E%20Proof%20Setup%20%3E%20Color,%2Dtype%20or%20Deuteranopia%2Dtype.">Color-Blind Proof Setup</a>, to sites like <a href="https://colorbrewer2.org/#type=diverging&scheme=RdYlBu&n=11">ColorBrewer</a> that can help you select a colorblind-friendly color scheme.<br><br>
+
+      But to what extent do colors impact a design or a game? To explore that, 
+      I decided to do a case study on the massively popular game Among Us, which relies on color encoding as a primary identifier for players. <br><br>
+
+      If you haven’t been living under a rock, you’ve probably heard of, and maybe even played, <a href="http://www.innersloth.com/gameAmongUs.php">Among Us</a>. For the unaware, the game is an online multiplayer social deduction game set in a space-themed setting, where players, or crewmates must complete tasks while trying to find the impostor among them. The imposter meanwhile can sabotage the environment, hindering crewmatse from completing tasks and killing them off one by one to win the game. <br><br>
+
+     To play the game, players can create or join virtual rooms on different servers. There can be a maximum of 10 players in one room, and each player can pick a different color. Currently, Among Us offer 12 color variants that users can select from:</span>
+
+      <div id="image1"></div>
+
+     
+      <span id="secondline">The process to identify an Impostor is to discuss and decide who the Impostor can be within the game through a chatbox, and vote on who the Impostor is and get them ejected from the spacecraft.<br><br>
+      Colors remain the primary identifier for players for this purpose, as users commonly use names such as ‘I’, ‘No one’, ‘Someone’ or simply color names themselves, like a player with a green avatar sets their name as ‘Red’, or a player with a purple avatar sets their name as ‘Black’. </span>
+
+       <div id="video">
+      <iframe width="620" height="349" src="https://www.youtube.com/embed/AXmKoPiNS3Q" frameborder="1" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+
+      <span id="thirdline">This video shows the chaos when players simply use pronouns as their avatar names. This makes it difficult to identify the Impostor in the chat with just the player name and leads to confusion, which is why players rely on colors to identify others.</span>
+
+      <div id="image2"></div>
+
+       <span id="subline">Avatar names and colors contrast, creating confusion in identifying players (Source: Google Images)</span>
+
+      <span id="fourth">In this scenario, where colors play a vital role in the game, color blindness can impact the players’ performance and cognitive load, as it becomes difficult to distinguish between several players.<br><br>
+      I recreated the color scheme used by Among Us and tested it using <a href="https://www.color-blindness.com/coblis-color-blindness-simulator/1">Coblis</a> for various types of color blindness.<br><br>
+      The most common type of color blindness makes it hard to tell the difference between red and green.<br> There are 4 types of red-green color blindness:<br>
+      <strong>Deuteranomaly</strong> is the most common type of red-green color blindness. It makes green look more red. <strong>Protanomaly</strong> makes red look more green and less bright. <strong>Protanopia</strong> and <strong>deuteranopia</strong> both make you unable to tell the difference between red and green at all<br><br>
+      Other types of color blindness include:
+      <ol>
+      <li>
+      <strong>Blue- Yellow color blindness</strong><br>
+      This less-common type of color blindness makes it hard to tell the difference between blue and green, and between yellow and red. There are 2 types of blue-yellow color blindness: <strong>Tritanomaly</strong> makes it hard to tell the difference between blue and green, and between yellow and red. <strong>Tritanopia</strong> makes you unable to tell the difference between blue and green, purple and red, and yellow and pink. It also makes colors look less bright.</li>
+      <br>
+      <li>
+      <strong>Monochromacy</strong><br>
+      If you have complete color blindness, you can’t see colors at all. This is also called monochromacy, and it’s quite uncommon. Depending on the type, you may also have trouble seeing clearly and you may be more sensitive to light.
+      </li>
+      </ol>
+      In such cases, how do the players with color blindness perceive the colors in Among Us?</span>
+
+
+               <!-- Slideshow container -->
+          <div class="slideshow-container">
+            <h1>JQslider</h1>
+            <div class="slider-outer">
+              <img src="images/arrow-left.png" class="prev" alt="Prev">
+              <div class="slider-inner">
+                <img src="images/image1.jpg" class="active">
+                <img src="images/image2.jpg">
+                <img src="images/image3.jpg">
+                <img src="images/image4.jpg">
+                <img src="images/image5.jpg">
+                <img src="images/image6.jpg">
+              </div>
+              <img src="images/arrow-right.png" class="next" alt="Next">
+            </div>
+          </div>
+
+
+      <span id="fifth"><strong>What can the developers do to make the game more accessible for color-blind people:</strong><br><br>
+      <ol>
+      <li>
+      Using additional identifiers for players, like this technique <a href="https://shop.mattel.com/shop/en-us/ms/uno-game/coloradd-uno-fwp10">Uno</a>  used incorporating <a href="http://www.coloradd.net/code.asp">ColorAdd</a>, a color identification system for color-blind people. Similarly, different colors in Among Us could have symbols attributed to them, allowing easier identification. The symbols could be shown with the avatar’s name or on the avatar itself.<br><br></li>
+
+      <li>
+      A simple solution would be displaying the name of the avatar’s color in brackets similar to how the name of the player is displayed. While this would take some tweaking to display both player name and color name elegantly,<br> it could be possible solution.</li></ol></span>
+
+      <div id="image3"></div>
+
+      <span id="sixth">While the developers are  <a href="https://innersloth.itch.io/among-us/devlog/181107/the-future-of-among-us">already working on this</a> and a color-blind mode is <a href="https://metro.co.uk/2020/10/12/among-us-beta-update-adds-anonymous-voting-and-colour-blind-support-13410204/">already available in the public beta version</a>, it is interesting to note the difference an inclusive design can make. <a href="https://www.youtube.com/watch?v=_OoOqMmGMxc">This video</a>, for example, shows the complete chaos that occurs when color and name both cannot be used as an identifier.<br><br>
+
+      I chose Among Us for a case study as the game is increasing in popularity day by day, and hence has a large audience. This should make testing color-blind support easier, and so I’m keen on seeing how the Among Us developers will be addressing this.<br><br>
+
+      All sources linked in the article. Primary image of avatars and color scheme made in Adobe Illustrator, colors and hex-codes for the avatars were taken from the Among Us <a href="https://among-us.fandom.com/wiki/Category:Colors">Fandom page</a>. Various color-blind versions made using <a href="https://www.color-blindness.com/coblis-color-blindness-simulator/">Coblis</a>. Information for color-blindness has been taken from <a href="https://en.wikipedia.org/wiki/Color_blindness">Wikipedia</a>, ColorBlindness.com, <a href="https://www.nei.nih.gov/learn-about-eye-health/eye-conditions-and-diseases/color-blindness/types-color-blindness">National Eye Institute</a>.</span>
+      <div id="footer"></div>
+    </div>
+  </body>
+</html><
