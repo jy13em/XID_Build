@@ -28,6 +28,35 @@ html, body {
 	background-repeat:no-repeat;
 	background-size:cover;
 }
+
+
+
+#square {
+	display:block;
+	transition:transform 2s;
+	position:absolute;
+	width:93px;
+	height:156px;
+	background-image:url(images/png1.png);
+	animation-name: fabrizio;
+	animation-duration:15s;
+	animation-iteration-count:infinite;
+}
+
+.animated-square {
+	animation-name: fabrizio;
+	animation-duration:15s;
+	animation-iteration-count:infinite;
+}
+
+@keyframes fabrizio {
+	0% {top:0;left:0;}
+	50% {top:0; left: 90vw;}
+	75% {top:80vh; left:0;}
+	100% { top:80vh; left:90vw; }
+
+}
+
 #heroimage { 
 	opacity:1;
 	width:780px;
@@ -39,6 +68,9 @@ html, body {
 	background-repeat:no-repeat;
 	background-size:cover;
 }
+
+
+
 #whiteboard { 
 	background-color:rgba(255, 255, 255, 1);
 	opacity:1;
@@ -353,6 +385,22 @@ html, body {
 	height:74px;
 }
 
+
+
+.square {
+	display:block;
+	transition:transform 2s;
+	position:absolute;
+	width:300px;
+
+
+	}
+
+
+.animated-square {
+	animation-name: fabrizio;
+	animation-duration:15s;
+	animation-iteration-count:infinite;
 
 /* SLIDER ----------------------------------------------------------------------------------------------------------------------------------------------------------
 
