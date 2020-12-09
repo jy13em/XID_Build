@@ -110,7 +110,16 @@ a:link {
 }
 
 
-
+#ost {
+	float:right;
+ 	display: block;
+	height:22px;
+	width:350px;
+	text-align: center;
+  	padding: 14px 16px;
+  	margin:auto;
+  	 overflow: auto;
+}
 
 #container{
 	background: white;
