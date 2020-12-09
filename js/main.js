@@ -19,5 +19,13 @@ $('.prev').on('click' , function(){
       prevImg.addClass('active').css('z-index' , 10);
     }
   });
-
 });
+
+
+$(document).ready(function() {
+
+  $('#square2').on('click', function() {
+    $('#bg').toggle();
+    });
+
+})
