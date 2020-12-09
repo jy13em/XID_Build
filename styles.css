@@ -9,6 +9,7 @@
 	animation-direction: alternate-reverse;
 	animation-iteration-count:infinite;
 	transform: rotate(360deg);
+	cursor: pointer;
 }
 
 
@@ -37,6 +38,7 @@
 	animation-direction: alternate-reverse;
 	animation-iteration-count:infinite;
 	transform: rotate(360deg);
+	cursor: pointer;
 }
 
 @keyframes coffee {
